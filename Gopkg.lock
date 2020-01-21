@@ -272,9 +272,10 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:35ce874cf16f78a2da908ab28b0277497e36603d289db00d39da5200bc8ace08"
+  digest = "1:b27b4a5b31f1d7e858e7568c51030704dbea84dd2c7a7f407fb7e8d0acadb676"
   name = "golang.org/x/crypto"
   packages = [
+    "ocsp",
     "pbkdf2",
     "ssh/terminal",
   ]
@@ -354,6 +355,7 @@
     "github.com/tidwall/pretty",
     "github.com/xdg/scram",
     "github.com/xdg/stringprep",
+    "golang.org/x/crypto/ocsp",
     "golang.org/x/sync/semaphore",
     "golang.org/x/tools/go/packages",
     "golang.org/x/tools/imports",

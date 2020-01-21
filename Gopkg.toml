@@ -55,3 +55,7 @@
 [[constraint]]
   name = "github.com/klauspost/compress"
   version = "1.9.5"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/crypto"
